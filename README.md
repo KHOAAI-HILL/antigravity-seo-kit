@@ -1,12 +1,12 @@
 # Antigravity SEO & GEO Content Kit
 
-Bộ công cụ (Starter Kit) dành cho Antigravity IDE, giúp tự động hóa quy trình sản xuất nội dung chuẩn SEO (Search Engine Optimization) và GEO (Generative Engine Optimization) từ video YouTube.
+Bộ công cụ (Starter Kit) dành cho Antigravity IDE, giúp tự động hóa quy trình sản xuất nội dung chuẩn SEO (Search Engine Optimization) và GEO (Generative Engine Optimization) từ nguồn bài viết.
 
 ## 📦 Bộ Kit bao gồm
 
 ### 1. Workflows
 
-* **`step-by-step-article-seo-geo`**: Quy trình 6 bước biến Video thành Article.
+* **`step-by-step-article-seo-geo`**: Quy trình 6 bước biến nguồn bài viết thành Article.
   * Phân tích phụ đề video.
   * Deep Research (Nghiên cứu sâu) với NotebookLM.
   * Viết bài chuẩn SEO/GEO.
@@ -31,7 +31,6 @@ irm https://raw.githubusercontent.com/KHOAAI-HILL/antigravity-seo-kit/main/setup
 curl -fsSL https://raw.githubusercontent.com/KHOAAI-HILL/antigravity-seo-kit/main/install.sh | bash
 ```
 
-> **Lưu ý:** Thay `KHOAAI-HILL` bằng tên GitHub của tác giả.
 
 ## 📦 Cài đặt thủ công (Không khuyến khích)
 
