@@ -20,3 +20,6 @@ Desktop.ini
 brain/
 artifacts/
 tmp/
+
+# Data files
+*.srt
