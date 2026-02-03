@@ -6,6 +6,7 @@ Bộ công cụ (Starter Kit) dành cho Antigravity IDE, giúp tự động hóa
 
 ### 1. Workflows
 
+* **`youtube-seo`**: Quy trình biến video YouTube thành bài viết LinkedIn, X.com, Beehiiv chuẩn SEO & GEO.
 * **`step-by-step-article-seo-geo`**: Quy trình 6 bước biến nguồn bài viết thành Article.
   * Phân tích phụ đề video.
   * Deep Research (Nghiên cứu sâu) với NotebookLM.
@@ -16,6 +17,22 @@ Bộ công cụ (Starter Kit) dành cho Antigravity IDE, giúp tự động hóa
 
 * **`Article-SEO-GEO`**: Kỹ năng viết bài Long-form tối ưu cho cả Google và AI (ChatGPT, Gemini).
 * **`check-article`**: Chuyên gia Audit nội dung, chấm điểm và đề xuất cải thiện.
+* **`viet-mo-ta-youtube`**: Viết mô tả YouTube chuyên nghiệp với Timestamps và FAQ.
+
+## 🎥 Video hướng dẫn
+
+**Antigravity + NotebookLM: Bí kíp viết bài chuẩn SEO/GEO tự động**
+
+Xem video chi tiết về cách sử dụng bộ công cụ này để biến video YouTube thành nội dung đa kênh:
+
+[![Video hướng dẫn](https://img.youtube.com/vi/wVmxXyCzTNg/maxresdefault.jpg)](https://youtu.be/wVmxXyCzTNg)
+
+👉 [Xem ngay tại đây](https://youtu.be/wVmxXyCzTNg)
+
+**Bạn sẽ học được:**
+- Cách kết hợp Antigravity với NotebookLM
+- Quy trình tự động hóa tạo nội dung SEO/GEO từ video
+- Tối ưu workflow cho LinkedIn, X.com, Beehiiv
 
 ## 🚀 Cài đặt siêu tốc (1 dòng lệnh)
 
