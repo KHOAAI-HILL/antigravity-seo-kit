@@ -4,7 +4,7 @@
 $repoUrl = "https://github.com/KHOAAI-HILL/antigravity-seo-kit.git" # <--- THAY THẾ USERNAME CỦA BẠN Ở ĐÂY
 $tempDir = Join-Path $env:TEMP "antigravity-seo-kit-$(Get-Random)"
 
-Write-Host "`n🚀 Đang tải bộ Antigravity SEO Kit..." -ForegroundColor Cyan
+Write-Host "`n> Dang tai bo Antigravity SEO Kit..." -ForegroundColor Cyan
 
 # 1. Clone về thư mục tạm
 New-Item -ItemType Directory -Force -Path $tempDir | Out-Null
@@ -20,10 +20,10 @@ if (Test-Path "$tempDir\.agent") {
     # Copy đè
     Copy-Item -Path "$tempDir\.agent\*" -Destination ".agent" -Recurse -Force
     
-    Write-Host "`n✅ CÀI ĐẶT THÀNH CÔNG!" -ForegroundColor Green
-    Write-Host "👉 Hãy thử gõ lệnh: /step-by-step-article-seo-geo" -ForegroundColor White
+    Write-Host "`nOK! CAI DAT THANH CONG!" -ForegroundColor Green
+    Write-Host "> Hay thu go lenh: /step-by-step-article-seo-geo" -ForegroundColor White
 } else {
-    Write-Host "`n❌ LỖI: Không tìm thấy thư mục .agent trong repository." -ForegroundColor Red
+    Write-Host "`nX LOI: Khong tim thay thu muc .agent trong repository." -ForegroundColor Red
 }
 
 # 3. Dọn dẹp

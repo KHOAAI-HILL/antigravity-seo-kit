@@ -6,22 +6,22 @@
 REPO_URL="https://github.com/KHOAAI-HILL/antigravity-seo-kit.git" # <--- THAY THẾ USERNAME CỦA BẠN Ở ĐÂY
 TEMP_DIR=$(mktemp -d)
 
-echo -e "\n🚀 Đang tải bộ Antigravity SEO Kit..."
+echo -e "\n> Dang tai bo Antigravity SEO Kit..."
 
 # 1. Clone về thư mục tạm
 git clone -q "$REPO_URL" "$TEMP_DIR"
 
 # 2. Kiểm tra và copy
 if [ -d "$TEMP_DIR/.agent" ]; then
-    echo -e "📦 Đang cài đặt Skills và Workflows..."
+    echo -e "📦 Dang cai dat Skills va Workflows..."
     
     mkdir -p .agent
     cp -R "$TEMP_DIR/.agent/"* .agent/
     
-    echo -e "\n✅ CÀI ĐẶT THÀNH CÔNG!"
-    echo -e "👉 Hãy thử gõ lệnh: /step-by-step-article-seo-geo"
+    echo -e "\nOK! CAI DAT THANH CONG!"
+    echo -e "> Hay thu go lenh: /step-by-step-article-seo-geo"
 else
-    echo -e "\n❌ LỖI: Không tìm thấy thư mục .agent trong repository."
+    echo -e "\nX LOI: Khong tim thay thu muc .agent trong repository."
 fi
 
 # 3. Dọn dẹp
