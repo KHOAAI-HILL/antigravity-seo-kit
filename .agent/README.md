@@ -27,7 +27,7 @@
 
 Xem video chi tiết về cách sử dụng bộ công cụ này để biến video YouTube thành nội dung đa kênh:
 
-[![Video hướng dẫn](https://img.youtube.com/vi/wVmxXyCzTNg/maxresdefault.jpg)](https://youtu.be/wVmxXyCzTNg)
+[![Video hướng dẫn](https://img.youtube.com/vi/wVmxXyCzTNg/hqdefault.jpg)](https://youtu.be/wVmxXyCzTNg)
 
 👉 [Xem ngay tại đây](https://youtu.be/wVmxXyCzTNg)
 
