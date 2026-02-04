@@ -12,7 +12,7 @@ git clone -q $repoUrl $tempDir
 
 # 2. Kiểm tra và copy
 if (Test-Path "$tempDir\.agent") {
-    Write-Host "📦 Đang cài đặt Skills và Workflows..." -ForegroundColor Cyan
+    Write-Host "[:] Dang cai dat Skills va Workflows..." -ForegroundColor Cyan
     
     # Tạo thư mục .agent nếu chưa có
     if (-not (Test-Path ".agent")) { New-Item -ItemType Directory -Force -Path ".agent" | Out-Null }
